@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "827917970383",
+    "project_id": "unitour-13",
+    "storage_bucket": "unitour-13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827917970383:android:19a555ee5d2a84580880ba",
+        "android_client_info": {
+          "package_name": "com.monhardy.unitourapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827917970383-61fg3f4utbttci072vonkti8coti7rtk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monhardy.unitourapp",
+            "certificate_hash": "ae26a8f587c88bd6a4abb7e2035f13fb9ceb54f8"
+          }
+        },
+        {
+          "client_id": "827917970383-nunpad0ruouu4iitogmlecsb8d84ehs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArhxfanm5-3ShvsTeoeNsC2kYT6oe04T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827917970383-nunpad0ruouu4iitogmlecsb8d84ehs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
