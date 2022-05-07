@@ -1,13 +1,25 @@
 package com.monhardy.unitourapp.model;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Exclude;
+import com.monhardy.unitourapp.config.ConfiguracaoFirebase;
+
 public class Usuario {
 
     private String id;
     private String nome;
     private String email;
     private String senha;
+    private String tipo;
 
     public Usuario() {
+    }
+
+    public void salvar(){
+        DatabaseReference firebaseRef = ConfiguracaoFirebase.getFirebaseDatabase();
+        DatabaseReference usuarios = firebaseRef.child( "usuarios" ).child( getId () );
+
+        usuarios.setValue(this);
     }
 
     public String getId() {
@@ -34,6 +46,7 @@ public class Usuario {
         this.email = email;
     }
 
+    @Exclude
     public String getSenha() {
         return senha;
     }
@@ -41,4 +54,8 @@ public class Usuario {
     public void setSenha( String senha ) {
         this.senha = senha;
     }
+
+    public String getTipo() { return tipo; }
+
+    public void setTipo(String tipo){ this.tipo = tipo; }
 }
