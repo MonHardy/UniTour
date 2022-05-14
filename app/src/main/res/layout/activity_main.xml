@@ -26,7 +26,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:fontFamily="sans-serif-black"
-            android:onClick="telaInicial"
+            android:onClick="validarLoginUsuario"
             android:text="Entrar"
             android:textColor="#1C0B37"
             android:textColorHint="#FBFBFB"
@@ -63,7 +63,7 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textSenha"
+        android:id="@+id/editLoginSenha"
         android:layout_width="208dp"
         android:layout_height="42dp"
         android:background="@color/white"
@@ -120,7 +120,7 @@
     </LinearLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textEmail"
+        android:id="@+id/editLoginEmail"
         android:layout_width="205dp"
         android:layout_height="41dp"
         android:editable="true"

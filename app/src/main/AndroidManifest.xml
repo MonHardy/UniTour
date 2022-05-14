@@ -10,15 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UniTourApp">
         <activity
+            android:name=".activity.telaProfessor"
+            android:exported="false" />
+        <activity
+            android:name=".activity.telaAluno"
+            android:exported="false" />
+        <activity
             android:name=".activity.cadastro"
             android:exported="false"
             android:label="@string/title_cadastro"
-            android:parentActivityName=".activity.MainActivity"/>
+            android:parentActivityName=".activity.MainActivity" />
         <activity
             android:name=".activity.telaInicial"
             android:exported="false"
             android:label="@string/title_inicial"
-            android:parentActivityName=".activity.MainActivity"/>
+            android:parentActivityName=".activity.MainActivity" />
         <activity
             android:name=".activity.MapsActivity"
             android:exported="false" />

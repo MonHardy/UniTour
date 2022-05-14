@@ -140,7 +140,7 @@ public class cadastro extends AppCompatActivity {
                     try {
                         throw task.getException();
                     }catch ( FirebaseAuthWeakPasswordException e) {
-                        excecao = "digite uma senha mais forte!";
+                        excecao = "Digite uma senha mais forte!";
                     }catch ( FirebaseAuthInvalidCredentialsException e) {
                         excecao = "Por favor, digite um e-mail válido";
                     }catch ( FirebaseAuthUserCollisionException e) {
