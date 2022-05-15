@@ -3,6 +3,7 @@ package com.monhardy.unitourapp.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -29,4 +30,6 @@ public class telaInicial extends AppCompatActivity {
 
         getSupportActionBar().hide();
     }
+    public void perfilAluno( View view ) {startActivity(new Intent(this, telaAluno.class));}
+    public void telaLogin ( View view ) {startActivity(new Intent(this, MainActivity.class));}
 }
